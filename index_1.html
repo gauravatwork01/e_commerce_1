@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .products {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* used  */
+    .product {
+        border: 1px solid #ccc;
+
+        /* margin: 10px; */
+        width: 600px;
+        /* background-color: white; */
+        background-color: orange;
+        /* width: 300px; */
+        height: 150px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+            inset 0 -3px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .img_con {
+        box-sizing: border-box;
+        display: flex;
+
+        justify-content: space-evenly;
+        flex-direction: row;
+        /* padding: 10px; */
+        padding-top: 40px;
+        /* background-color: #e3e2e2; */
+        height: 90%;
+        width: 100%;
+        background-color: orange;
+    }
+</style>
+
+<body>
+    <div class="products">
+        <div class="product">
+            <div class="img_con">
+                <button>prev</button>
+                <img src="https://cdn.dummyjson.com/product-images/1/1.jpg">
+                <button>next</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
